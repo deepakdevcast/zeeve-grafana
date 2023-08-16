@@ -173,7 +173,8 @@ class LightColors implements ThemeColorsBase<Partial<ThemeRichColor>> {
 
   text = {
     primary: `rgba(${this.blackBase}, 1)`,
-    secondary: `rgba(${this.blackBase}, 0.75)`,
+    // secondary: `rgba(${this.blackBase}, 0.75)`,
+    secondary: `rgb(31, 98, 224)`,
     disabled: `rgba(${this.blackBase}, 0.50)`,
     link: this.primary.text,
     maxContrast: palette.black,
@@ -232,8 +233,8 @@ class LightColors implements ThemeColorsBase<Partial<ThemeRichColor>> {
   };
 
   gradients = {
-    brandHorizontal: 'linear-gradient(90deg, #FF8833 0%, #F53E4C 100%)',
-    brandVertical: 'linear-gradient(0.01deg, #F53E4C -31.2%, #FF8833 113.07%)',
+    brandHorizontal: 'linear-gradient(90deg, #0062ff 0%, #0062ff 100%)',
+    brandVertical: 'linear-gradient(0.01deg, #0062ff -31.2%, #0062ff 113.07%)',
   };
 
   contrastThreshold = 3;
