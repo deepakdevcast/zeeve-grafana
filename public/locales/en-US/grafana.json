@@ -534,9 +534,6 @@
       "toggle-search-bar": "Toggle top search bar"
     }
   },
-  "news": {
-    "title": "Latest from the blog"
-  },
   "notifications": {
     "starred-dashboard": "Dashboard starred",
     "unstarred-dashboard": "Dashboard unstarred"
