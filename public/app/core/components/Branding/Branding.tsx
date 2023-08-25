@@ -59,7 +59,7 @@ export class Branding {
   static LoginBackground = LoginBackground;
   static MenuLogo = MenuLogo;
   static LoginBoxBackground = LoginBoxBackground;
-  static AppTitle = 'Grafana';
+  static AppTitle = 'Zeeve Observability';
   static LoginTitle = 'Welcome to Zeeve Observability';
   static GetLoginSubTitle = (): null | string => {
     return null;
