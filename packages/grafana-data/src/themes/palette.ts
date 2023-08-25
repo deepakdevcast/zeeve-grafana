@@ -3,10 +3,13 @@ export const palette = {
   black: '#000000',
 
   gray25: '#2c3235',
-  gray15: '#22252b', //'#202226',
-  gray10: '#181b1f', // old '#141619',
-  gray05: '#111217', // old '#0b0c0e',
-
+  // gray15: '#22252b', //'#202226',
+  gray15: '#02315E', //'#202226', #9DB2BF
+  // gray10: '#181b1f', // old '#141619',
+  gray10: '#02315E', // old '#141619', #27374D
+  // gray05: '#111217', // old '#0b0c0e',
+  gray05: '#3a5d7a', // old '#0b0c0e', #526D82
+  
   // new from figma,
   darkLayer0: '#18181A',
   darkLayer1: '#212124',
