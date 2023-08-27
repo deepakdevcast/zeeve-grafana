@@ -21,7 +21,7 @@ export default function Home() {
             <h3>How it works</h3>
             <ul className={styles.list}>
               <li>
-                Grafana alerting periodically queries data sources and evaluates the condition defined in the alert rule
+                Zeeve observability alerting periodically queries data sources and evaluates the condition defined in the alert rule
               </li>
               <li>If the condition is breached, an alert instance fires</li>
               <li>Firing instances are routed to notification policies based on matching labels</li>
@@ -52,12 +52,12 @@ export default function Home() {
                 <strong>Configure notification policies</strong> to route your alert instances to contact points.
               </li>
             </ul>
-            <div>
+            {/* <div>
               <ArrowLink href="https://grafana.com/docs/grafana/latest/alerting/" title="Read more in the Docs" />
-            </div>
+            </div> */}
           </Stack>
         </ContentBox>
-        <ContentBox className={styles.videoBlock}>
+        {/* <ContentBox className={styles.videoBlock}>
           <iframe
             title="Alerting - Introductory video"
             src="https://player.vimeo.com/video/720001629?h=c6c1732f92"
@@ -71,7 +71,7 @@ export default function Home() {
             // Summary: If the color scheme of an iframe differs from embedding document iframe gets an opaque canvas bg appropriate to its color scheme
             style={{ colorScheme: 'light dark' }}
           ></iframe>
-        </ContentBox>
+        </ContentBox> */}
       </div>
     </AlertingPageWrapper>
   );
