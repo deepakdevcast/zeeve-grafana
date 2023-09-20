@@ -3,9 +3,9 @@ export const palette = {
   black: '#000000',
 
   gray25: '#2c3235',
-  gray15: '#22252b', //'#202226',
-  gray10: '#181b1f', // old '#141619',
-  gray05: '#111217', // old '#0b0c0e',
+  gray15: '#080E12', //'#202226', #9DB2BF
+  gray10: '#181B23', // old '#141619', #27374D
+  gray05: '#000', // old '#0b0c0e', #526D82
 
   // new from figma,
   darkLayer0: '#18181A',
@@ -24,7 +24,7 @@ export const palette = {
   // from figma
   lightBorder1: '#E4E7E7',
 
-  blueDarkMain: '#3D71D9', // '#4165F5',
+  blueDarkMain: '#4054B2', //#3D71D9', // '#4165F5',
   blueDarkText: '#6E9FFF', // '#58a6ff', //'#33a2e5', // '#5790FF',
   redDarkMain: '#D10E5C',
   redDarkText: '#FF5286',
@@ -33,7 +33,7 @@ export const palette = {
   orangeDarkMain: '#FF9900',
   orangeDarkText: '#fbad37',
 
-  blueLightMain: '#3871DC',
+  blueLightMain: '#4054B2', // #3871DC',
   blueLightText: '#1F62E0',
   redLightMain: '#E0226E',
   redLightText: '#CF0E5B',

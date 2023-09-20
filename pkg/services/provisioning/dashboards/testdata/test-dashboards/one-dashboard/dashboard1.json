@@ -1,5 +1,5 @@
 {
-    "title": "Grafana",
+    "title": "Zeeve Observability",
     "tags": [],
     "style": "dark",
     "timezone": "browser",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "title": "Welcome to Grafana",
+        "title": "Welcome to Zeeve Observability",
         "height": "210px",
         "collapse": false,
         "editable": true,

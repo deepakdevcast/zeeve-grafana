@@ -567,7 +567,7 @@ func (hs *HTTPServer) GetHomeDashboard(c *contextmodel.ReqContext) response.Resp
 		return response.Error(500, "Failed to load home dashboard", err)
 	}
 
-	hs.addGettingStartedPanelToHomeDashboard(c, dash.Dashboard)
+	// hs.addGettingStartedPanelToHomeDashboard(c, dash.Dashboard)
 
 	return response.JSON(http.StatusOK, &dash)
 }

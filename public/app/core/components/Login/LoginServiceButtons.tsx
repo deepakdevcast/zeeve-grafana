@@ -55,7 +55,7 @@ const loginServices: () => LoginServices = () => {
     grafanacom: {
       bgColor: '#262628',
       enabled: oauthEnabled && Boolean(config.oauth.grafana_com),
-      name: config.oauth?.grafana_com?.name || 'Grafana.com',
+      name: config.oauth?.grafana_com?.name || 'Zeeve Observability.com',
       icon: config.oauth?.grafana_com?.icon || ('grafana' as const),
       hrefName: 'grafana_com',
     },

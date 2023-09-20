@@ -83,7 +83,7 @@ export class GettingStarted extends PureComponent<PanelProps, State> {
 
     return (
       <div className={styles.container}>
-        {!checksDone ? (
+        {/* {!checksDone ? (
           <div className={styles.loading}>
             <div className={styles.loadingText}>Checking completed setup steps</div>
             <Spinner size={24} inline />
@@ -115,7 +115,7 @@ export class GettingStarted extends PureComponent<PanelProps, State> {
               />
             )}
           </>
-        )}
+        )} */}
       </div>
     );
   }

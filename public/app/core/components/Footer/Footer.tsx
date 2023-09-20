@@ -20,22 +20,24 @@ export let getFooterLinks = (): FooterLink[] => {
       id: 'documentation',
       text: t('nav.help/documentation', 'Documentation'),
       icon: 'document-info',
-      url: 'https://grafana.com/docs/grafana/latest/?utm_source=grafana_footer',
+      // url: 'https://grafana.com/docs/grafana/latest/?utm_source=grafana_footer',
+      url: 'https://www.zeeve.io/docs/',
     },
     {
       target: '_blank',
       id: 'support',
       text: t('nav.help/support', 'Support'),
       icon: 'question-circle',
-      url: 'https://grafana.com/products/enterprise/?utm_source=grafana_footer',
+      // url: 'https://grafana.com/products/enterprise/?utm_source=grafana_footer',
+      url: 'https://www.zeeve.io/docs/Zeeve_Support.html',
     },
-    {
-      target: '_blank',
-      id: 'community',
-      text: t('nav.help/community', 'Community'),
-      icon: 'comments-alt',
-      url: 'https://community.grafana.com/?utm_source=grafana_footer',
-    },
+    // {
+    //   target: '_blank',
+    //   id: 'community',
+    //   text: t('nav.help/community', 'Community'),
+    //   icon: 'comments-alt',
+    //   url: 'https://community.grafana.com/?utm_source=grafana_footer',
+    // },
   ];
 };
 

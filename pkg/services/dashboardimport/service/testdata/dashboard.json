@@ -13,7 +13,7 @@
     {
       "type": "grafana",
       "id": "grafana",
-      "name": "Grafana",
+      "name": "Zeeve Observability",
       "version": "8.1.0-pre"
     },
     {
@@ -39,7 +39,7 @@
     "list": [
       {
         "builtIn": 1,
-        "datasource": "-- Grafana --",
+        "datasource": "-- Zeeve Observability --",
         "enable": true,
         "hide": true,
         "iconColor": "rgba(0, 211, 255, 1)",
@@ -57,7 +57,7 @@
       "icon": "info",
       "tags": [],
       "targetBlank": true,
-      "title": "Grafana Docs",
+      "title": "Zeeve Observability Docs",
       "tooltip": "",
       "type": "link",
       "url": "https://grafana.com/docs/grafana/latest/"
